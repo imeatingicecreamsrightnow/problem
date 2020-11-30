@@ -34,7 +34,6 @@
                 </div>
                 <div class="info-tab hidden">
                     <p>5. Weź tą pracę odstaw, zapalmy papieroska, niech butelka nie ma końca.<br>Niech tu będzie zachód słońca.</p>
-                    <img src="./img/chain.png" alt="chain" class="chain">
                 </div>
                 <div class="info-tab hidden">
                     <p>6. Odpal <b>Ligę Legend</b>. Czuj się dobrze. Kochaj świat. Proste.</p>
