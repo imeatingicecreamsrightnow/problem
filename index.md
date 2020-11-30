@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Łańcuch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/chain-ico.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="content">
+            
+            <div class="info">
+                <div class="info-tab">
+                    <p class="jak">Jak polepszyć swoje zdrowie psychiczne w kilku krokach?</p>
+                    <p class="poradnik">Poradnik dla podziurawionych psychicznie.</p>
+                </div>
+                <div class="info-tab hidden">
+                    <p>1. Odinstaluj <b>Ligę Legend</b>. Podstawowy krok, a jak istotny w dalszej terapii.</p>
+                    <img src="./img/deleteLOL.gif" alt="delete" class="lol">
+                </div>
+                <div class="info-tab hidden">
+                    <p>2. Zażywaj witaminę <b>B</b>. Przykładowo <b>piwo</b> zawiera 0,005mg. Wystarczy pić dużo piwa.</p>
+                    <img src="./img/piwo.jpg" alt="piwo" class="piwo">
+                </div>
+                <div class="info-tab hidden" style="line-height: 2;">
+                    <p>3. <span class="crossed">Pieniądze szczęścia nie dają.</span> <span style="color:rgb(148, 56, 56); font-weight: 600; margin-left:25px">No właśnie dają.</span><br> Możesz w łatwy sposób zarabiać, na przykład obstawiając mecze!</p>
+                </div>
+                <div class="info-tab hidden" style="line-height: 2;">
+                    <p>4. Znajdź nowe ulubione zajęcie. Może być to gra, zabawa towarzyska, cokolwiek! <br>Znajdź coś, co sprawi ci przyjemność!</p>
+                </div>
+                <div class="info-tab hidden">
+                    <p>5. Odpal <b>Ligę Legend</b>. Czuj się dobrze. Kochaj świat. Proste.</p>
+                    <img src="./img/chain.png" alt="chain" class="chain">
+                </div>
+        </div>
+        <div class="choose">
+            <div class="previous hidden">poprzedni</div>
+            <div class="next">następny</div>
+            <div class="repeat hidden">powtórz</div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

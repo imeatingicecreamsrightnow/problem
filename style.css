@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: #006a4e;
+}
+
+.content {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jak {
+    font-size: 2.4rem;
+    padding-top: 10px;
+    text-shadow: 4px 3px 0 #234937;
+    line-height: 2;
+}
+
+.poradnik {
+    font-weight: 500;
+    font-size: 3rem;
+    text-shadow: 4px 3px 0 #234937;
+}
+
+.choose {
+    padding-top: 50px;
+    display: flex;
+}
+
+.next, .previous, .repeat {
+    margin: 0 10px 0 10px;
+    border: 1px solid  whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 14px;
+    
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.info-tab {
+    font-size: 1.8rem;
+    line-height: 2;
+    
+}
+
+.lol {
+    width: 25%;
+    filter: grayscale(1);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.piwo {
+    width: 15%;
+    filter: grayscale(1);
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 10px;
+}
+
+.crossed {
+    text-decoration-line: line-through;
+}
+
+.info {
+    text-align: center;
+}
+
+.chain {
+    width: 25%;
+    filter:invert(1);
+}
+
+@media(max-width: 600px) {
+    main {
+        padding-top: 25%;
+    }
+    .jak {
+        font-size: 1.8rem;
+    }
+    .info-tab {
+        font-size: 1.5rem;
+        margin: 0 20px;
+    }
+    
+    .lol {
+        width: 50%;
+        margin-top: 30px;
+    }
+    
+    .piwo {
+        margin-top: 30px;
+        width: 40%;
+    }
+    
+    .chain {
+        margin-top: 30px;
+    }
+}
