@@ -27,13 +27,17 @@
                     <img src="./img/piwo.jpg" alt="piwo" class="piwo">
                 </div>
                 <div class="info-tab hidden" style="line-height: 2;">
-                    <p>3. <span class="crossed">Pieniądze szczęścia nie dają.</span> <span style="color:rgb(148, 56, 56); font-weight: 600; margin-left:25px">No właśnie dają.</span><br> Możesz w łatwy sposób zarabiać, na przykład obstawiając mecze!</p>
+                    <p>3. <span class="crossed">Pieniądze szczęścia nie dają.</span><br><span style="color:rgb(148, 56, 56); font-weight: 600;">No właśnie dają.</span><br> Możesz w łatwy sposób zarabiać, na przykład obstawiając mecze!</p>
                 </div>
                 <div class="info-tab hidden" style="line-height: 2;">
                     <p>4. Znajdź nowe ulubione zajęcie. Może być to gra, zabawa towarzyska, cokolwiek! <br>Znajdź coś, co sprawi ci przyjemność!</p>
                 </div>
                 <div class="info-tab hidden">
-                    <p>5. Odpal <b>Ligę Legend</b>. Czuj się dobrze. Kochaj świat. Proste.</p>
+                    <p>5. Weź tą pracę odstaw, zapalmy papieroska, niech butelka nie ma końca.<br>Niech tu będzie zachód słońca.</p>
+                    <img src="./img/chain.png" alt="chain" class="chain">
+                </div>
+                <div class="info-tab hidden">
+                    <p>6. Odpal <b>Ligę Legend</b>. Czuj się dobrze. Kochaj świat. Proste.</p>
                     <img src="./img/chain.png" alt="chain" class="chain">
                 </div>
         </div>

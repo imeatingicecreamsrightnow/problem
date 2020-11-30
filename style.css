@@ -13,7 +13,7 @@ main {
 }
 
 .content {
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,13 @@ main {
     border-radius: 5px;
     color: whitesmoke;
     padding: 14px;
-    
     cursor: pointer;
+}
+
+.next:active, .next:focus, .previous:active, .previous:focus, .repeat:active, .repeat:focus {
+    background: whitesmoke;
+    transition: .7s;
+    color: #006a4e;
 }
 
 .hidden {
@@ -55,7 +60,6 @@ main {
 .info-tab {
     font-size: 1.8rem;
     line-height: 2;
-    
 }
 
 .lol {
@@ -63,6 +67,7 @@ main {
     filter: grayscale(1);
     border-radius: 10px;
     box-shadow: 1px 1px 5px #000000;
+    margin-top: 50px;
 }
 
 .piwo {
@@ -70,6 +75,7 @@ main {
     filter: grayscale(1);
     box-shadow: 1px 1px 5px #000000;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 .crossed {
@@ -83,11 +89,24 @@ main {
 .chain {
     width: 25%;
     filter:invert(1);
+    margin-top: 50px;
+}
+
+@media(hover: hover) {
+    .next:hover, .previous:active, .repeat:active {
+        background: whitesmoke;
+        transition: .7s;
+        color: #006a4e;
+    }
 }
 
 @media(max-width: 600px) {
     main {
         padding-top: 25%;
+    }
+
+    .content {
+        height: 80vh;
     }
     .jak {
         font-size: 1.8rem;

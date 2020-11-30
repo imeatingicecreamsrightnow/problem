@@ -6,14 +6,15 @@ const repeat = document.querySelector(".repeat");
 
 var content = 0;
 
+
 function display() {
-    if(content >= 0 && content < 5) {
+    if(content >= 0 && content < 6) {
         next.addEventListener("click", function() {
             content++;
             prev.classList.remove("hidden");
             tab[content-1].classList.add("hidden");
             tab[content].classList.remove("hidden");
-            if(content == 5) {
+            if(content == 6) {
                 next.classList.add("hidden");
                 repeat.classList.remove("hidden");
             }
