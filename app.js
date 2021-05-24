@@ -8,13 +8,13 @@ var content = 0;
 
 
 function display() {
-    if(content >= 0 && content < 6) {
+    if(content >= 0 && content < 5) {
         next.addEventListener("click", function() {
             content++;
             prev.classList.remove("hidden");
             tab[content-1].classList.add("hidden");
             tab[content].classList.remove("hidden");
-            if(content == 6) {
+            if(content == 5) {
                 next.classList.add("hidden");
                 repeat.classList.remove("hidden");
             }
